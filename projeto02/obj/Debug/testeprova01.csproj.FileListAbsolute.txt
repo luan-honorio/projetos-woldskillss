@@ -11,3 +11,16 @@ C:\aula01-t\testeprova01\obj\Debug\testeprova01.csproj.CoreCompileInputs.cache
 C:\aula01-t\testeprova01\obj\Debug\testeprova01.exe
 C:\aula01-t\testeprova01\obj\Debug\testeprova01.pdb
 C:\aula01-t\testeprova01\obj\Debug\testeprova01.REDEFINIRSENHA.resources
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\bin\Debug\testeprova01.exe.config
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\bin\Debug\testeprova01.exe
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\bin\Debug\testeprova01.pdb
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.csproj.AssemblyReference.cache
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.csproj.SuggestedBindingRedirects.cache
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.cadastrar.resources
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.login.resources
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.Properties.Resources.resources
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.REDEFINIRSENHA.resources
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.csproj.GenerateResource.cache
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.csproj.CoreCompileInputs.cache
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.exe
+C:\Users\SenaiGP\Downloads\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.pdb

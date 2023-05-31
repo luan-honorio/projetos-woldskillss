@@ -15,27 +15,12 @@ namespace testeprova01
         public login()
         {
             InitializeComponent();
-           
-        }
 
-        private void login_Load(object sender, EventArgs e)
-        {
+
+
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            cadastrar cadastrar = new cadastrar();
-            cadastrar.ShowDialog();
-        }
-
-        private void esqueceu_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            REDEFINIRSENHA rEDEFINIRSENHA = new REDEFINIRSENHA();
-            rEDEFINIRSENHA.ShowDialog();
-
-        }
+     
     }
 }
