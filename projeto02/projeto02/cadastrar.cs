@@ -17,19 +17,7 @@ namespace testeprova01
         public cadastrar()
         {
             InitializeComponent();
-            btncadastrar.Enabled = false;
-            txtnome.TextChanged += (s, args) =>
-            {
-                if (!string.IsNullOrWhiteSpace(txtnome.Text))
-                {
-                    btncadastrar.Enabled = true;
-                }
-                else
-                {
-                    btncadastrar.Enabled = false;
-                };
-
-            };
+          
 
 
 
@@ -68,27 +56,13 @@ namespace testeprova01
                     MessageBox.Show("email invalido, adicione (@gmail.com)");
                 }
 
-                if (txtsenha.Text.Length < 8)
+                if (txtsenha.Text.Length < 8 | !txtsenha.Text.Any(char.IsLower) | !txtsenha.Text.Any(char.IsUpper)| !txtsenha.Text.Any(c => !char.IsLetterOrDigit(c))| !Regex.IsMatch(txtsenha.Text, @"\d{1,}"))
                 {
-                    MessageBox.Show("minimo 8 caracteres");
-                }
-                else if (!txtsenha.Text.Any(char.IsLower))
-                {
-                    MessageBox.Show("pelo menos uma letra minuscula");
-                }
-                else if (!txtsenha.Text.Any(char.IsUpper))
-                {
-                    MessageBox.Show("pelo menos uma letra maiuscula");
-                }
-                else if (!txtsenha.Text.Any(c => !char.IsLetterOrDigit(c)))
-                {
-                    MessageBox.Show("pelo menos um caracter especial");
-                }
-                else if (!Regex.IsMatch(txtsenha.Text, @"\d{1,}"))
-                {
-                    MessageBox.Show("pelo menos um numero");
+                    MessageBox.Show("a senha tem que conter no minimo 8 caracteres, letra maiuscula e minuscula, numeros e caracter especial");
                 }
 
+               
+               
 
 
                 else

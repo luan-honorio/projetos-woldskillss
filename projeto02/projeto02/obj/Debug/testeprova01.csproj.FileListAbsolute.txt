@@ -24,3 +24,4 @@ C:\Users\honor\Downloads\projetos-woldskillss-main\projetos-woldskillss-main\pro
 C:\Users\honor\Downloads\projetos-woldskillss-main\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.csproj.CoreCompileInputs.cache
 C:\Users\honor\Downloads\projetos-woldskillss-main\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.exe
 C:\Users\honor\Downloads\projetos-woldskillss-main\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.pdb
+C:\Users\honor\Downloads\projetos-woldskillss-main\projetos-woldskillss-main\projeto02\obj\Debug\testeprova01.Addnotificacao.resources

@@ -31,11 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.txtsenha = new System.Windows.Forms.TextBox();
+            this.btnentrar = new System.Windows.Forms.Button();
             this.esqueceu = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.cadastrese = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -71,34 +71,34 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Senha";
             // 
-            // textBox1
+            // txtemail
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 71);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(409, 22);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtemail.Location = new System.Drawing.Point(84, 71);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(409, 22);
+            this.txtemail.TabIndex = 3;
+            this.txtemail.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // txtsenha
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 123);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(409, 22);
-            this.textBox2.TabIndex = 4;
+            this.txtsenha.Location = new System.Drawing.Point(84, 123);
+            this.txtsenha.Margin = new System.Windows.Forms.Padding(4);
+            this.txtsenha.Name = "txtsenha";
+            this.txtsenha.Size = new System.Drawing.Size(409, 22);
+            this.txtsenha.TabIndex = 4;
             // 
-            // button1
+            // btnentrar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(37, 155);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 41);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnentrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnentrar.ForeColor = System.Drawing.Color.White;
+            this.btnentrar.Location = new System.Drawing.Point(37, 155);
+            this.btnentrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnentrar.Name = "btnentrar";
+            this.btnentrar.Size = new System.Drawing.Size(100, 41);
+            this.btnentrar.TabIndex = 5;
+            this.btnentrar.Text = "entrar";
+            this.btnentrar.UseVisualStyleBackColor = false;
             // 
             // esqueceu
             // 
@@ -113,18 +113,18 @@
             this.esqueceu.Text = "Esqueceu a senha?";
             this.esqueceu.Click += new System.EventHandler(this.esqueceu_Click);
             // 
-            // label5
+            // cadastrese
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label5.Location = new System.Drawing.Point(33, 234);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 18);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Cadastrar-se";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.cadastrese.AutoSize = true;
+            this.cadastrese.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cadastrese.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.cadastrese.Location = new System.Drawing.Point(33, 234);
+            this.cadastrese.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.cadastrese.Name = "cadastrese";
+            this.cadastrese.Size = new System.Drawing.Size(94, 18);
+            this.cadastrese.TabIndex = 7;
+            this.cadastrese.Text = "Cadastrar-se";
+            this.cadastrese.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -142,17 +142,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(527, 263);
+            this.ClientSize = new System.Drawing.Size(665, 364);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.cadastrese);
             this.Controls.Add(this.esqueceu);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnentrar);
+            this.Controls.Add(this.txtsenha);
+            this.Controls.Add(this.txtemail);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "login";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.login_Load);
@@ -166,11 +166,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.TextBox txtsenha;
+        private System.Windows.Forms.Button btnentrar;
         private System.Windows.Forms.Label esqueceu;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label cadastrese;
         private System.Windows.Forms.Label label6;
     }
 }
