@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addnotificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addnotificacao.Designer.cs">
+      <DependentUpon>Addnotificacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="REDEFINIRSENHA.Designer.cs">
       <DependentUpon>REDEFINIRSENHA.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Addnotificacao.resx">
+      <DependentUpon>Addnotificacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cadastrar.resx">
       <DependentUpon>cadastrar.cs</DependentUpon>
     </EmbeddedResource>
