@@ -1,0 +1,13 @@
+C:\aula01-t\estudandoSimulado01\bin\Debug\estudandoSimulado01.exe.config
+C:\aula01-t\estudandoSimulado01\bin\Debug\estudandoSimulado01.exe
+C:\aula01-t\estudandoSimulado01\bin\Debug\estudandoSimulado01.pdb
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.csproj.AssemblyReference.cache
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.csproj.SuggestedBindingRedirects.cache
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.Properties.Resources.resources
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.csproj.GenerateResource.cache
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.csproj.CoreCompileInputs.cache
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.exe
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.pdb
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.login.resources
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.redefinirsenha.resources
+C:\aula01-t\estudandoSimulado01\obj\Debug\estudandoSimulado01.cadastro.resources
